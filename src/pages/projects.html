@@ -1,0 +1,60 @@
+<!--{
+  "title": "Projects",
+  "nav": "projects",
+  "description": "Energy systems, digital platforms and sustainability studies delivered by the EnJEL team in Ghana, Europe and East Africa."
+}-->
+  <section class="page-hero" id="top">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol><li><a href="index.html">Home</a></li><li><span aria-current="page">Projects</span></li></ol>
+      </nav>
+      <p class="eyebrow">Projects</p>
+      <h1 class="h1">Research put to work in the field</h1>
+      <p class="lede">Energy systems, digital platforms and sustainability studies delivered by the EnJEL team with funders, regulators and universities in Ghana, Europe and East Africa.</p>
+    </div>
+  </section>
+
+  <section class="filter-bar" aria-label="Filter projects" data-project-filter>
+    <div class="wrap">
+      <span class="label" id="show-label">Show:</span>
+      <button type="button" class="filter-btn" aria-pressed="true" data-filter="">All projects</button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter="Engineering">Engineering</button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter="Information Technology">Information Technology</button>
+      <button type="button" class="filter-btn" aria-pressed="false" data-filter="Sustainability">Sustainability</button>
+      <span class="filter-count" role="status"><span id="project-count">{{> projectCount}}</span> projects</span>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-top:64px;padding-bottom:24px">
+    {{> featuredProject}}
+  </section>
+
+  <section class="wrap" id="experience" style="padding-top:40px;padding-bottom:88px">
+    <div class="grid g-340">
+      {{> projectGrid}}
+    </div>
+    <p class="no-results" id="project-empty" hidden>No projects in this category yet.</p>
+  </section>
+
+  <section class="band">
+    <div class="wrap s-64 stat-band">
+      <div style="display:flex;flex-wrap:wrap;gap:40px;align-items:center">
+        <span class="big" aria-hidden="true">13</span>
+        <div style="max-width:560px">
+          <h2><span class="sr-only">13 </span>Theses and papers supported</h2>
+          <p class="muted">Analysis, modelling and editorial support for master’s and doctoral researchers in AI security, imaging, environmental health, IoT and education.</p>
+        </div>
+      </div>
+      <a class="more-link" href="research-support.html">See research we’ve supported →</a>
+    </div>
+  </section>
+
+  <section class="dark">
+    <div class="wrap s-72 cta">
+      <div>
+        <h2>Have a project in mind?</h2>
+        <p>Feasibility studies, energy systems, digital platforms and funded research partnerships.</p>
+      </div>
+      <a class="btn btn-lg" href="mailto:info@enjel.space?subject=Proposal%20request">Request a proposal</a>
+    </div>
+  </section>

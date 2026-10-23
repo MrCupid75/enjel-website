@@ -1,0 +1,50 @@
+[
+  {
+    "type": "Research article",
+    "title": "Mechanistic and multiphysics modelling of catalytic biodiesel production from non-edible feedstock",
+    "summary": "A calibrated kinetic model of base-catalysed transesterification, validated across feedstocks with uncertainty quantification.",
+    "tag": "Engineering",
+    "note": "In progress · KNUST",
+    "url": "research.html"
+  },
+  {
+    "type": "Conference paper",
+    "title": "Lenz: an AI-driven agricultural drone for precision spraying and crop disease detection in Ghana",
+    "summary": "Multispectral imaging and CNNs for real-time crop health monitoring and variable-rate spraying.",
+    "tag": "IT · Sustainability",
+    "note": "iCAD 2025 · Oral presentation",
+    "url": "research.html#lenz-agricultural-drone"
+  },
+  {
+    "type": "Conference paper",
+    "title": "Ghana GOALS: employment opportunities in green technologies and sustainable energy",
+    "summary": "Solar mini-grid data analysis and skills-training impact across four senior high schools.",
+    "tag": "Sustainability",
+    "note": "iCAD 2025 · Oral presentation",
+    "url": "research.html#ghana-goals-green-jobs"
+  },
+  {
+    "type": "Research article",
+    "title": "Techno-economic analysis of FAME production with physics-informed neural network modelling",
+    "summary": "Coupling process economics with PINN surrogates to screen biodiesel plant configurations.",
+    "tag": "Sustainability",
+    "note": "In preparation",
+    "url": "research.html"
+  },
+  {
+    "type": "Applied research",
+    "title": "Integrated national energy data hub for Kenya",
+    "summary": "A unified platform for gathering, analysing and sharing fragmented electricity data, with EPRA and DTU Skylab.",
+    "tag": "IT · Energy",
+    "note": "NGDA 2026 · In progress",
+    "url": "research.html#hanep-kenya"
+  },
+  {
+    "type": "Applied research",
+    "title": "Machine-learning detection of mobile-money smishing messages",
+    "summary": "A real-time fraud filter for MTN Mobile Money SMS, deployed in a mobile application.",
+    "tag": "IT · Security",
+    "note": "Completed",
+    "url": "research.html#momo-smishing-detection"
+  }
+]

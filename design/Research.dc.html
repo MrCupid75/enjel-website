@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>EnJEL — Research &amp; publications</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1f1f1f;text-decoration:none}a:hover{color:#9a3412;text-decoration:underline}
+</style>
+</helmet>
+
+<div style="font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif; color: #1f1f1f; background: #ffffff; font-size: 16px; line-height: 1.55">
+
+  <!-- Utility bar -->
+  <div style="background: #1f1f1f; color: #e6e6e6; font-size: 13px">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 10px 32px; display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; align-items: center">
+      <div style="display: flex; flex-wrap: wrap; gap: 20px">
+        <a href="Main.dc.html" style="color: #e6e6e6">For researchers</a>
+        <a href="Main.dc.html" style="color: #e6e6e6">For industry</a>
+        <a href="Main.dc.html" style="color: #e6e6e6">For funders</a>
+      </div>
+      <div style="display: flex; gap: 20px">
+        <span>Engineering · IT · Sustainability</span>
+        <a href="#contact" style="color: #e6e6e6">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header style="border-bottom: 1px solid #e3e3e3">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 18px 32px; display: flex; flex-wrap: wrap; gap: 16px 40px; align-items: center; justify-content: space-between">
+      <a href="Main.dc.html" style="display: flex; align-items: center; gap: 12px; color: #1f1f1f; text-decoration: none">
+        <svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="{{accent}}" stroke-width="2.2"><circle cx="20" cy="8" r="4.5"></circle><circle cx="8" cy="30" r="4.5"></circle><circle cx="32" cy="30" r="4.5"></circle><path d="M17.8 12 10.2 26M22.2 12l7.6 14M12.5 30h15"></path></svg>
+        <span style="display: flex; flex-direction: column; line-height: 1.1"><span style="font-family: &quot;Source Serif 4&quot;, Georgia, serif; font-size: 26px; font-weight: 700; letter-spacing: -0.3px">EnJEL</span>
+          <span style="font-size: 12px; letter-spacing: 1.4px; text-transform: uppercase; color: rgb(85, 85, 85)">Research &amp; Engineering</span>
+        </span>
+      </a>
+      <nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 6px 28px; font-size: 15px; font-weight: 500">
+        <a href="Research.dc.html" aria-current="page" style="color: #9a3412">Research</a>
+        <a href="Solutions.dc.html">Solutions</a>
+        <a href="Projects.dc.html">Projects</a>
+        <a href="Research.dc.html">Publications</a>
+        <a href="About.dc.html">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div style="display: flex; gap: 12px; align-items: center">
+        <button type="button" aria-label="Search" style="width: 44px; height: 44px; border: 1px solid #d0d0d0; background: #ffffff; border-radius: 4px; display: flex; align-items: center; justify-content: center; cursor: pointer">
+          <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#1f1f1f" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        </button>
+        <a href="Main.dc.html" style="background: {{accent}}; color: #ffffff; padding: 12px 20px; border-radius: 4px; font-weight: 600; font-size: 15px; text-decoration: none">Work with us</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Research hero -->
+  <section id="top" style="background: #f7f5f2; border-bottom: 1px solid #e3e3e3">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 28px 32px 64px">
+      <nav aria-label="Breadcrumb" style="font-size: 13px; color: #555555; margin-bottom: 40px; display: flex; gap: 8px">
+        <a href="Main.dc.html">Home</a><span aria-hidden="true">/</span><span>Research &amp; publications</span>
+      </nav>
+      <p style="margin: 0 0 16px; font-size: 13px; letter-spacing: 1.6px; text-transform: uppercase; font-weight: 600; color: #9a3412">Research &amp; publications</p>
+      <h1 style="margin: 0 0 20px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 50px; line-height: 1.12; letter-spacing: -0.6px; max-width: 820px">Evidence that moves from the page into practice</h1>
+      <p style="margin: 0 0 32px; font-size: 19px; color: #444444; max-width: 660px">Peer-reviewed articles, conference papers and applied research from the EnJEL team across engineering, information technology and sustainability.</p>
+      <div role="search" style="display: flex; flex-wrap: wrap; max-width: 760px; background: #ffffff; border: 1px solid #bdbdbd; border-radius: 4px">
+        <label for="pub-search" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Search publications by title, author or keyword</label>
+        <input id="pub-search" type="search" placeholder="Search by title, author or keyword" style="flex: 1 1 280px; min-width: 0; border: 0; padding: 16px 18px; font-size: 16px; font-family: inherit; background: transparent; outline: none">
+        <button type="button" style="border: 0; background: #1f1f1f; color: #ffffff; padding: 0 26px; min-height: 52px; font-size: 15px; font-weight: 600; font-family: inherit; cursor: pointer; border-radius: 0 3px 3px 0">Search</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research areas -->
+  <section style="max-width: 1280px; margin: 0 auto; padding: 72px 32px 56px">
+    <h2 style="margin: 0 0 32px; font-family: 'Source Serif 4', Georgia, serif; font-size: 34px; font-weight: 600; letter-spacing: -0.4px">Research areas</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px">
+        <div style="border-top: 4px solid #1f1f1f; padding-top: 20px; display: flex; flex-direction: column; gap: 10px">
+          <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 24px; font-weight: 600">Engineering</h3>
+          <p style="margin: 0; font-size: 15px; color: #444444">Reaction kinetics and catalysis, multiphysics and process simulation, membrane separations, solar mini-grids and biogas systems.</p>
+        </div>
+        <div style="border-top: 4px solid #1f1f1f; padding-top: 20px; display: flex; flex-direction: column; gap: 10px">
+          <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 24px; font-weight: 600">Information Technology</h3>
+          <p style="margin: 0; font-size: 15px; color: #444444">Privacy-preserving computation, cybersecurity and fraud detection, cloud architecture, and national-scale energy data platforms.</p>
+        </div>
+        <div style="border-top: 4px solid #1f1f1f; padding-top: 20px; display: flex; flex-direction: column; gap: 10px">
+          <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 24px; font-weight: 600">Sustainability</h3>
+          <p style="margin: 0; font-size: 15px; color: #444444">Techno-economic analysis, clean energy access, precision agriculture and the water–energy–food nexus.</p>
+        </div>
+    </div>
+  </section>
+
+  <!-- Listing -->
+  <section id="research" style="border-top: 1px solid #e3e3e3">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 56px 32px 88px; display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start">
+      <aside aria-label="Filter publications" style="flex: 1 1 240px; max-width: 300px; display: flex; flex-direction: column; gap: 28px; font-size: 14px">
+        <div style="display: flex; justify-content: space-between; align-items: baseline">
+          <h2 style="margin: 0; font-size: 18px; font-weight: 600">Refine results</h2>
+          <button type="button" style="border: 0; background: transparent; color: #9a3412; font-weight: 600; font-family: inherit; font-size: 14px; cursor: pointer; min-height: 44px">Clear all</button>
+        </div>
+        <fieldset style="border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px">
+          <legend style="font-weight: 600; margin-bottom: 8px; padding: 0">Pillar</legend>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="f-eng" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="f-eng" style="flex: 1">Engineering</label><span style="color: #555555">3</span></div>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="f-it" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="f-it" style="flex: 1">Information Technology</label><span style="color: #555555">4</span></div>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="f-sus" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="f-sus" style="flex: 1">Sustainability</label><span style="color: #555555">4</span></div>
+        </fieldset>
+        <fieldset style="border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px">
+          <legend style="font-weight: 600; margin-bottom: 8px; padding: 0">Publication type</legend>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="t-art" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="t-art" style="flex: 1">Journal article</label><span style="color: #555555">1</span></div>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="t-conf" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="t-conf" style="flex: 1">Conference paper</label><span style="color: #555555">2</span></div>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="t-ms" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="t-ms" style="flex: 1">Manuscript</label><span style="color: #555555">5</span></div>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="t-app" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="t-app" style="flex: 1">Applied research</label><span style="color: #555555">2</span></div>
+        </fieldset>
+        <fieldset style="border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px">
+          <legend style="font-weight: 600; margin-bottom: 8px; padding: 0">Status</legend>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="s-pub" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="s-pub" style="flex: 1">Published or accepted</label><span style="color: #555555">3</span></div>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="s-prog" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="s-prog" style="flex: 1">In progress</label><span style="color: #555555">7</span></div>
+        </fieldset>
+        <fieldset style="border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 4px">
+          <legend style="font-weight: 600; margin-bottom: 8px; padding: 0">Year</legend>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="y26" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="y26" style="flex: 1">2026</label><span style="color: #555555">6</span></div>
+              <div style="display: flex; align-items: center; gap: 10px; min-height: 32px"><input id="y25" type="checkbox" style="width: 18px; height: 18px; accent-color: {{accent}}"><label for="y25" style="flex: 1">2025</label><span style="color: #555555">4</span></div>
+        </fieldset>
+      </aside>
+
+      <div style="flex: 999 1 560px; min-width: 0">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; padding-bottom: 16px; border-bottom: 2px solid #1f1f1f; font-size: 14px">
+          <span><strong>10</strong> results</span>
+          <div style="display: flex; align-items: center; gap: 10px">
+            <label for="sort">Sort by</label>
+            <select id="sort" style="min-height: 40px; padding: 0 12px; border: 1px solid #bdbdbd; border-radius: 4px; font-family: inherit; font-size: 14px; background: #ffffff">
+              <option>Most recent</option>
+              <option>Title A–Z</option>
+            </select>
+          </div>
+        </div>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Journal article</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">IT</span>
+              <span style="color: #555555">Accepted</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="https://doi.org/10.1016/j.cose.2025.104603">A hybrid framework of differential privacy and secure multi-party computation for privacy-preserving entity resolution</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">J. M. Mensah et al.</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">Computers &amp; Security (Elsevier), 2025 · doi.org/10.1016/j.cose.2025.104603</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="https://doi.org/10.1016/j.cose.2025.104603" style="color: #9a3412">View abstract</a>
+              <a href="https://doi.org/10.1016/j.cose.2025.104603" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Manuscript</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">Engineering</span>
+              <span style="color: #555555">Pre-submission</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="#research">A closed-form effective-catalyst model for predicting the optimum potassium carbonate loading from feedstock acid value in biodiesel production</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">P. Boakye, J. M. Mensah et al. · KNUST, New Mexico Tech, University of Western Ontario</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">Target: Chemical Engineering Journal (Elsevier) · Paper 1 of a ten-paper programme on unsupported K₂CO₃ catalysis</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="#research" style="color: #9a3412">View abstract</a>
+              <a href="#research" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Manuscript</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">Engineering</span>
+              <span style="color: #555555">Drafted</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="#research">Ion-pair carbonate methanolysis–neutralisation (IP-CMN) model for active-catalyst speciation in K₂CO₃-catalysed transesterification</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">P. Boakye, J. M. Mensah et al.</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">Target: Fluid Phase Equilibria</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="#research" style="color: #9a3412">View abstract</a>
+              <a href="#research" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Manuscript</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">Sustainability</span>
+              <span style="color: #555555">Drafted</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="#research">Techno-economic analysis of biodiesel production with unsupported K₂CO₃: feedstock-specific break-even prices and market-access constraints</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">J. M. Mensah, P. Boakye et al.</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">Target: [journal] · Finds a 7–18× NPV gap between local and global pricing scenarios</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="#research" style="color: #9a3412">View abstract</a>
+              <a href="#research" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Manuscript</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">Sustainability</span>
+              <span style="color: #555555">In preparation</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="#research">First-year field performance of the 35 kWp Onaa PV–battery mini-grid in Ghana</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">J. M. Mensah et al.</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">Target: Energy for Sustainable Development · Yield, performance ratio and loss decomposition</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="#research" style="color: #9a3412">View abstract</a>
+              <a href="#research" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Conference paper</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">IT · Sustainability</span>
+              <span style="color: #555555">Oral presentation</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="#research">Lenz: an AI-driven agricultural drone for precision spraying and crop disease detection in Ghana</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">J. M. Mensah et al.</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">International Conference on African Development (iCAD 2025)</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="#research" style="color: #9a3412">View abstract</a>
+              <a href="#research" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Conference paper</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">Sustainability</span>
+              <span style="color: #555555">Oral presentation</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="#research">Ghana GOALS: employment opportunities in green technologies and sustainable energy</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">J. M. Mensah et al.</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">International Conference on African Development (iCAD 2025)</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="#research" style="color: #9a3412">View abstract</a>
+              <a href="#research" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Applied research</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">IT · Energy</span>
+              <span style="color: #555555">In progress</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="#research">HANEP: harmonising Kenya&#8217;s 47 county energy plans into the Integrated National Energy Plan</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">J. M. Mensah and NGDA team, with EPRA and DTU Skylab</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">Next Generation Digital Action (NGDA) Challenge 2026</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="#research" style="color: #9a3412">View abstract</a>
+              <a href="#research" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Manuscript</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">Engineering</span>
+              <span style="color: #555555">Data collection</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="#research">The GC–MS inlet as a microreactor: kinetics and selectivity of β-keto ester chemistry</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">J. M. Mensah with collaborating chemists</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">Consulting research · kinetic model stage</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="#research" style="color: #9a3412">View abstract</a>
+              <a href="#research" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+          <article style="padding: 24px 0; border-bottom: 1px solid #e3e3e3; display: flex; flex-direction: column; gap: 8px">
+            <div style="display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; align-items: center">
+              <span style="font-weight: 600; color: #555555; text-transform: uppercase; letter-spacing: 1.1px; font-size: 12px">Applied research</span>
+              <span style="background: #fff1e8; color: #9a3412; padding: 3px 10px; border-radius: 3px; font-weight: 500">IT · Security</span>
+              <span style="color: #555555">Completed</span>
+            </div>
+            <h3 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 21px; line-height: 1.32; font-weight: 600"><a href="#research">Machine-learning detection of mobile-money smishing messages</a></h3>
+            <p style="margin: 0; font-size: 14px; color: #444444">E. Abotsi</p>
+            <p style="margin: 0; font-size: 14px; color: #555555; font-style: italic">Academic project, KNUST</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; font-weight: 600; margin-top: 2px">
+              <a href="#research" style="color: #9a3412">View abstract</a>
+              <a href="#research" style="color: #9a3412">Cite</a>
+            </div>
+          </article>
+        <a href="Support.dc.html" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: center; margin-top: 32px; padding: 24px; background: #f7f5f2; border: 1px solid #e3e3e3; border-radius: 4px; color: #1f1f1f; text-decoration: none">
+          <span><span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 20px; font-weight: 600">Research we&#8217;ve supported</span><br><span style="font-size: 14px; color: #444444">13 theses and papers across six fields, kept confidential</span></span>
+          <span style="font-weight: 600; color: #9a3412">View →</span>
+        </a>
+        <nav aria-label="Pagination" style="display: flex; gap: 8px; margin-top: 28px; font-size: 14px">
+          <a href="#research" aria-current="page" style="min-width: 44px; min-height: 44px; display: flex; align-items: center; justify-content: center; background: #1f1f1f; color: #ffffff; border-radius: 4px; text-decoration: none">1</a>
+          <a href="#research" style="min-width: 44px; min-height: 44px; display: flex; align-items: center; justify-content: center; border: 1px solid #bdbdbd; border-radius: 4px">2</a>
+          <a href="#research" style="min-height: 44px; padding: 0 16px; display: flex; align-items: center; border: 1px solid #bdbdbd; border-radius: 4px">Next →</a>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collaborate CTA -->
+  <section style="background: #1f1f1f; color: #f2f2f2">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 72px 32px; display: flex; flex-wrap: wrap; gap: 24px; align-items: center; justify-content: space-between">
+      <div style="max-width: 640px">
+        <h2 style="margin: 0 0 10px; font-family: 'Source Serif 4', Georgia, serif; font-size: 34px; font-weight: 600; color: #ffffff">Research with us</h2>
+        <p style="margin: 0; font-size: 17px; color: #cfcfcf">Joint studies, co-authored publications and funded research partnerships.</p>
+      </div>
+      <a href="#contact" style="background: {{accent}}; color: #ffffff; padding: 14px 24px; border-radius: 4px; font-weight: 600; text-decoration: none">Propose a collaboration</a>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer id="contact" style="background: #f7f5f2; border-top: 1px solid #e3e3e3; font-size: 14px">
+    <div style="max-width: 1280px; margin: 0 auto; padding: 64px 32px 32px">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; padding-bottom: 40px; border-bottom: 1px solid #d6d6d6">
+        <div style="display: flex; flex-direction: column; gap: 10px">
+          <span style="font-family: 'Source Serif 4', Georgia, serif; font-size: 22px; font-weight: 700">EnJEL</span>
+          <span style="color: #444444">Research, engineering and development across engineering, IT and sustainability.</span>
+          <span style="color: #444444">[Office address], Ghana</span>
+          <a href="mailto:info@enjel.space">info@enjel.space</a>
+          <a href="https://enjel.space">enjel.space</a>
+          <span style="color: #444444">[+233 phone number]</span>
+        </div>
+        <nav aria-label="Research areas" style="display: flex; flex-direction: column; gap: 10px">
+          <span style="font-weight: 600">Research areas</span>
+          <a href="Main.dc.html">Reaction engineering</a>
+          <a href="Main.dc.html">Separations</a>
+          <a href="Main.dc.html">Renewable energy</a>
+          <a href="Main.dc.html">Techno-economics</a>
+        </nav>
+        <nav aria-label="Solutions" style="display: flex; flex-direction: column; gap: 10px">
+          <span style="font-weight: 600">Solutions</span>
+          <a href="Main.dc.html">Engineering consulting</a>
+          <a href="Main.dc.html">Cloud &amp; security</a>
+          <a href="Main.dc.html">Data &amp; machine learning</a>
+          <a href="Main.dc.html">Sustainability assessment</a>
+        </nav>
+        <nav aria-label="Company" style="display: flex; flex-direction: column; gap: 10px">
+          <span style="font-weight: 600">Company</span>
+          <a href="#team">About us</a>
+          <a href="#team">Our people</a>
+          <a href="Projects.dc.html">Projects</a>
+          <a href="#contact">Careers</a>
+        </nav>
+        <div style="display: flex; flex-direction: column; gap: 10px">
+          <label for="news-email" style="font-weight: 600">Research updates</label>
+          <span style="color: #444444">New publications and project news, monthly.</span>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px">
+            <input id="news-email" type="email" placeholder="Email address" style="flex: 1 1 140px; min-width: 0; padding: 12px; border: 1px solid #bdbdbd; border-radius: 4px; font-family: inherit; font-size: 14px">
+            <button type="button" style="min-height: 44px; padding: 0 16px; border: 0; border-radius: 4px; background: {{accent}}; color: #ffffff; font-weight: 600; font-family: inherit; cursor: pointer">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; padding-top: 24px; color: #555555; font-size: 13px">
+        <span>© 2026 EnJEL Research &amp; Engineering. [Company registration no.]</span>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px">
+          <a href="#contact">Privacy</a>
+          <a href="#contact">Terms</a>
+          <a href="#contact">Accessibility</a>
+          <a href="https://www.linkedin.com">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#C2410C","options":["#C2410C","#0F5C8C","#1E6B4A","#6B2D8C"]},"$preview":{"width":1440,"height":3900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { accent: this.props.accent ?? '#C2410C' };
+  }
+}
+</script>
+</body>
+</html>

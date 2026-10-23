@@ -1,0 +1,38 @@
+[
+  {
+    "field": "AI & cybersecurity",
+    "items": [
+      { "kind": "Doctoral thesis", "topic": "Context-aware dynamic thresholds for deep-learning network intrusion detection", "work": "Chapter revisions against reviewer comments, objectives and referencing" },
+      { "kind": "Journal paper", "topic": "Adaptive fuzzy-neural intrusion detection on a benchmark network dataset", "work": "Experiments, results analysis and writing" },
+      { "kind": "Postgraduate thesis", "topic": "Dual-modal fraud detection combining review text and transactions", "work": "Methodology revisions and figure and table numbering" },
+      { "kind": "Master’s thesis", "topic": "Lightweight data scrambling for cloud telemetry, benchmarked against AES and DES", "work": "Revision passes, algorithm and figure correction, defence preparation" },
+      { "kind": "Postgraduate thesis", "topic": "Explainable neuro-symbolic decision support for career guidance", "work": "Front matter, introduction and conclusion editing" }
+    ]
+  },
+  {
+    "field": "Medical & forensic imaging",
+    "items": [
+      { "kind": "MPhil thesis", "topic": "Adversarial robustness of deep-learning ultrasound image analysis", "work": "Experimental pipeline, model evaluation and results reporting" },
+      { "kind": "Research paper", "topic": "Vision-transformer segmentation of high-resolution forensic images", "work": "Automated mask generation and segmentation pipeline" }
+    ]
+  },
+  {
+    "field": "Environmental health",
+    "items": [
+      { "kind": "Doctoral dissertation", "topic": "National co-occurrence of PFAS mixtures in public drinking-water systems", "work": "Data analysis, figures, verified references and reviewer responses" }
+    ]
+  },
+  {
+    "field": "Networks & IoT",
+    "items": [
+      { "kind": "Systematic review", "topic": "Security, energy efficiency and fault tolerance in wireless sensor networks", "work": "Literature compilation, structure and citation management" }
+    ]
+  },
+  {
+    "field": "Education & languages",
+    "items": [
+      { "kind": "PhD thesis", "topic": "Translation as a teaching tool in French language education", "work": "Survey statistics, interview coding, thematic analysis and literature review" },
+      { "kind": "Teaching materials", "topic": "University courses in graph theory and computational theory", "work": "Lecture slide decks and course materials" }
+    ]
+  }
+]

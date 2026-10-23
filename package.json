@@ -1,0 +1,14 @@
+{
+  "name": "enjel-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EnJEL public website (static, built with a zero-dependency Node script, hosted on GitHub Pages)",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node scripts/serve.js",
+    "start": "node build.js && node scripts/serve.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

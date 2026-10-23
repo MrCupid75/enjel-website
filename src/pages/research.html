@@ -1,0 +1,82 @@
+<!--{
+  "title": "Research & publications",
+  "nav": "research",
+  "description": "Peer-reviewed articles, conference papers and applied research from the EnJEL team across engineering, information technology and sustainability."
+}-->
+  <section class="page-hero" id="top">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol><li><a href="index.html">Home</a></li><li><span aria-current="page">Research &amp; publications</span></li></ol>
+      </nav>
+      <p class="eyebrow">Research &amp; publications</p>
+      <h1 class="h1">Evidence that moves from the page into practice</h1>
+      <p class="lede">Peer-reviewed articles, conference papers and applied research from the EnJEL team across engineering, information technology and sustainability.</p>
+      <form class="searchbar wide" role="search" id="pub-search-form" action="research.html#publications">
+        <label for="pub-search" class="sr-only">Search publications by title, author or keyword</label>
+        <input id="pub-search" name="q" type="search" placeholder="Search by title, author or keyword" aria-controls="pub-results">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-top:72px;padding-bottom:56px">
+    <h2 class="h2-sm mb-32">Research areas</h2>
+    <div class="grid g-280 gap-32">
+      <div class="rule-top">
+        <h3>Engineering</h3>
+        <p>Reaction kinetics and catalysis, multiphysics and process simulation, membrane separations, solar mini-grids and biogas systems.</p>
+      </div>
+      <div class="rule-top">
+        <h3>Information Technology</h3>
+        <p>Privacy-preserving computation, cybersecurity and fraud detection, cloud architecture, and national-scale energy data platforms.</p>
+      </div>
+      <div class="rule-top">
+        <h3>Sustainability</h3>
+        <p>Techno-economic analysis, clean energy access, precision agriculture and the water–energy–food nexus.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" style="border-top:1px solid var(--border)">
+    <div class="wrap listing" style="padding-top:56px;padding-bottom:88px">
+      <form class="filters" id="pub-filters" aria-label="Filter publications">
+        <div class="filters-head">
+          <h2>Refine results</h2>
+          <button type="reset" class="text-btn">Clear all</button>
+        </div>
+        {{> pubFilters}}
+      </form>
+
+      <div class="results">
+        <div class="results-bar">
+          <span role="status"><strong id="pub-count">{{> pubCount}}</strong> results</span>
+          <div class="sort">
+            <label for="sort">Sort by</label>
+            <select id="sort">
+              <option value="recent">Most recent</option>
+              <option value="title">Title A–Z</option>
+            </select>
+          </div>
+        </div>
+        <div id="pub-results">
+          {{> pubList}}
+        </div>
+        <p class="no-results" id="pub-empty" hidden>No publications match these filters. Try clearing a filter or searching for another word.</p>
+        <nav class="pagination" id="pub-pages" aria-label="Pagination" hidden></nav>
+        <a class="support-link" href="research-support.html">
+          <span><span class="t">Research we’ve supported</span><span class="s">13 theses and papers across six fields, kept confidential</span></span>
+          <span class="more-link">View →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="dark">
+    <div class="wrap s-72 cta">
+      <div>
+        <h2>Research with us</h2>
+        <p>Joint studies, co-authored publications and funded research partnerships.</p>
+      </div>
+      <a class="btn btn-lg" href="mailto:info@enjel.space?subject=Research%20collaboration">Propose a collaboration</a>
+    </div>
+  </section>

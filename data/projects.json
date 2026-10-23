@@ -1,0 +1,169 @@
+[
+  {
+    "id": "ghana-goals",
+    "pillar": "Sustainability",
+    "status": "Completed",
+    "title": "Ghana GOALS: clean power and cooking for Onaa and four senior high schools",
+    "partner": "Innovate UK Energy Catalyst",
+    "summary": "A community solar mini-grid with electric cooking in schools across the Ashanti Region. Our team analysed the energy data, tracked performance and turned the monitoring record into peer-reviewed research.",
+    "period": "Team experience · 2022–2024",
+    "image": "",
+    "alt": "",
+    "placeholder": "Onaa solar PV mini-grid and e-cookers",
+    "featured": {
+      "label": "Featured case study · Sustainability",
+      "stats": [
+        { "label": "Capacity", "value": "35 kWp" },
+        { "label": "Schools", "value": "4" },
+        { "label": "Funder", "value": "Innovate UK Energy Catalyst", "small": true }
+      ]
+    },
+    "home": {
+      "order": 1,
+      "label": "Innovate UK · Energy Catalyst",
+      "title": "Ghana GOALS: 35 kW solar mini-grid and clean cooking",
+      "summary": "Energy data analysis for a community mini-grid and e-cookers in senior high schools, Ashanti Region.",
+      "placeholder": "Onaa solar PV mini-grid"
+    }
+  },
+  {
+    "id": "trans-sahara-living-labs",
+    "pillar": "Sustainability",
+    "status": "Ongoing",
+    "title": "Trans-Sahara Living Labs",
+    "partner": "EU Horizon Europe · Water–energy–food nexus",
+    "summary": "Stakeholder mapping, baseline studies and site selection for agroforestry Living Labs in Northern Ghana.",
+    "period": "Team experience · 2025–2027",
+    "image": "",
+    "alt": "",
+    "placeholder": "Northern Ghana Living Lab site",
+    "home": {
+      "order": 2,
+      "label": "EU Horizon Europe",
+      "title": "Trans-Sahara Living Labs: water–energy–food nexus",
+      "summary": "Stakeholder mapping, baseline studies and site selection for agroforestry Living Labs."
+    }
+  },
+  {
+    "id": "yeboahkrom-mini-grid",
+    "pillar": "Engineering",
+    "status": "Completed",
+    "title": "Solar mini-grid for Yeboahkrom",
+    "partner": "KNUST–TUM SEED Centre",
+    "summary": "Design and delivery support for rural electrification in an off-grid community.",
+    "period": "Team experience",
+    "image": "",
+    "alt": "",
+    "placeholder": "Yeboahkrom mini-grid",
+    "home": {
+      "order": 3,
+      "label": "KNUST–TUM SEED Centre",
+      "title": "Solar mini-grid for Yeboahkrom",
+      "summary": "Rural electrification and energy-access work under the SEED Centre programme."
+    }
+  },
+  {
+    "id": "rooftop-solar-public-buildings",
+    "pillar": "Engineering",
+    "status": "Bid submitted",
+    "title": "Rooftop solar PV for public buildings",
+    "partner": "AfDB-funded SREP procurement, Ghana",
+    "summary": "Technical approach, Gantt scheduling and price schedules for rooftop PV across public institutions.",
+    "period": "Team experience",
+    "image": "",
+    "alt": "",
+    "placeholder": "Rooftop solar on a public building"
+  },
+  {
+    "id": "biomethanation",
+    "pillar": "Engineering",
+    "status": "Completed",
+    "title": "Biomethanation system optimisation",
+    "partner": "Applied research",
+    "summary": "Performance evaluation, design optimisation and experimental testing for efficient biogas production.",
+    "period": "Team experience",
+    "image": "",
+    "alt": "",
+    "placeholder": "Biogas digester",
+    "home": {
+      "order": 4,
+      "label": "Research & development",
+      "title": "Biomethanation system optimisation",
+      "summary": "Performance evaluation, design optimisation and experimental testing for efficient biogas production."
+    }
+  },
+  {
+    "id": "hanep",
+    "pillar": "Information Technology",
+    "status": "Ongoing",
+    "title": "HANEP: Kenya’s national energy planning platform",
+    "partner": "NGDA Challenge 2026 · EPRA, DTU Skylab, Embassy of Denmark",
+    "summary": "A web platform that validates and aggregates 47 county energy plans into Kenya’s Integrated National Energy Plan.",
+    "period": "Team experience · 2026",
+    "image": "",
+    "alt": "",
+    "placeholder": "HANEP platform dashboard",
+    "home": {
+      "order": 6,
+      "label": "NGDA 2026 · EPRA Kenya",
+      "title": "HANEP: national energy planning platform",
+      "summary": "Validating and aggregating 47 county energy plans into Kenya’s Integrated National Energy Plan."
+    }
+  },
+  {
+    "id": "cloud-data-pipelines",
+    "pillar": "Information Technology",
+    "status": "Completed",
+    "title": "Cloud data and analytics pipelines",
+    "partner": "AWS: Aurora, RDS, DynamoDB, QuickSight, ECR",
+    "summary": "Database-backed web applications, cross-account container deployment and live analytics dashboards.",
+    "period": "Team experience",
+    "image": "assets/img/cloud-fibre.jpg",
+    "alt": "Fibre-optic cables patched into a network switch",
+    "placeholder": "",
+    "home": {
+      "order": 5,
+      "label": "Cloud & data",
+      "title": "Cloud data and analytics pipelines",
+      "summary": "AWS Aurora, RDS and QuickSight builds, plus Power BI solar dashboards that cut reporting from hours to minutes.",
+      "image": "assets/img/cloud-servers.jpg",
+      "alt": "Server rack with network cables lit in blue"
+    }
+  },
+  {
+    "id": "momo-smishing-detector",
+    "pillar": "Information Technology",
+    "status": "Completed",
+    "title": "Mobile-money smishing detector",
+    "partner": "Machine learning · Mobile security",
+    "summary": "A real-time classifier that flags fraudulent MTN Mobile Money messages inside a mobile application.",
+    "period": "Team experience · KNUST",
+    "image": "",
+    "alt": "",
+    "placeholder": "Mobile app screens"
+  },
+  {
+    "id": "smart-campus-guide",
+    "pillar": "Information Technology",
+    "status": "Completed",
+    "title": "Smart Campus Guide chatbot",
+    "partner": "Python · Telegram",
+    "summary": "A chatbot giving students directions, place descriptions and live news across the KNUST campus.",
+    "period": "Team experience · KNUST",
+    "image": "",
+    "alt": "",
+    "placeholder": "Chatbot on a phone"
+  },
+  {
+    "id": "tender-bid-support",
+    "pillar": "Engineering",
+    "status": "Ongoing",
+    "title": "Tender and bid support",
+    "partner": "Public procurement, Ghana",
+    "summary": "Bills of quantities, technical proposals and multi-company bid synchronisation for energy and infrastructure tenders.",
+    "period": "Consulting",
+    "image": "",
+    "alt": "",
+    "placeholder": "Tender documents and drawings"
+  }
+]

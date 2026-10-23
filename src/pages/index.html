@@ -1,0 +1,181 @@
+<!--{
+  "title": "",
+  "nav": "home",
+  "description": "EnJEL is a research, engineering and development firm in Ghana combining process and energy engineering, cloud and data technology, and sustainability science."
+}-->
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="hero-main">
+        <p class="eyebrow">Research · Engineering · Development</p>
+        <h1 class="h1">Advancing engineering, digital and sustainable solutions for Africa</h1>
+        <p class="lede">We combine process and energy engineering, cloud and data technology, and sustainability science to turn rigorous research into working solutions for industry, institutions and communities.</p>
+        <form class="searchbar" role="search" action="search.html" method="get">
+          <label for="site-search" class="sr-only">Search research, projects and services</label>
+          <input id="site-search" name="q" type="search" placeholder="Search research, projects and services">
+          <button type="submit">Search</button>
+        </form>
+        <div class="chips">
+          <span class="muted">Popular:</span>
+          <a class="chip" href="search.html?q=biodiesel">Biodiesel catalysis</a>
+          <a class="chip" href="search.html?q=mini-grid">Solar mini-grids</a>
+          <a class="chip" href="search.html?q=cloud">Cloud migration</a>
+          <a class="chip" href="search.html?q=techno-economic">Techno-economic analysis</a>
+        </div>
+      </div>
+      <aside class="hero-feature" aria-label="Featured publication">
+        {{> img assets/img/hero-solar-team.jpg | Engineers in hard hats installing solar panels | r-16-9 | eager}}
+        <div class="hero-feature-body">
+          <p class="kicker">Featured publication</p>
+          <div class="accent-rule"></div>
+          <p class="venue">Computers &amp; Security · Elsevier</p>
+          <h2><a href="https://doi.org/10.1016/j.cose.2025.104603">A hybrid framework of differential privacy and secure multi-party computation for privacy-preserving entity resolution</a></h2>
+          <p class="summary">Secure record linkage across distributed datasets with a tuned privacy–utility trade-off.</p>
+          <div class="meta-row">
+            <span>Research article</span>
+            <span>Accepted · doi.org/10.1016/j.cose.2025.104603</span>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="wrap s-88-72" id="solutions">
+    <div class="section-head" style="margin-bottom:40px">
+      <div>
+        <p class="eyebrow">What we do</p>
+        <h2 class="h2">Three disciplines, one integrated practice</h2>
+      </div>
+      <a class="more-link" href="solutions.html">Explore all solutions →</a>
+    </div>
+    <div class="grid g-300">
+      <article class="pillar">
+        <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#C2410C" stroke-width="1.6"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.7 3h10.6a2 2 0 0 0 1.7-3l-5-9V3"/><path d="M7.5 15h9"/></svg>
+        <h3>Engineering</h3>
+        <p class="muted">Process, reaction and energy-systems engineering, from kinetic modelling at the bench to design and delivery in the field.</p>
+        <ul>
+          <li><a href="solutions.html#engineering">Reaction engineering &amp; catalysis</a></li>
+          <li><a href="research.html">Separations &amp; membrane technology</a></li>
+          <li><a href="projects.html">Solar PV, mini-grids &amp; biogas</a></li>
+          <li><a href="solutions.html#engineering">Technical consulting &amp; tender support</a></li>
+        </ul>
+      </article>
+      <article class="pillar">
+        <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#C2410C" stroke-width="1.6"><path d="M7 18a4 4 0 0 1-.6-7.96A6 6 0 0 1 18 9a4.5 4.5 0 0 1-.5 9H7Z"/><path d="M12 12v6M9.5 14.5 12 12l2.5 2.5"/></svg>
+        <h3>Information Technology</h3>
+        <p class="muted">Secure cloud architecture, networking and data platforms that let organisations and research teams scale with confidence.</p>
+        <ul>
+          <li><a href="solutions.html#it">AWS cloud architecture &amp; migration</a></li>
+          <li><a href="solutions.html#it">Cybersecurity &amp; ethical hacking</a></li>
+          <li><a href="solutions.html#it">Networking &amp; IT infrastructure</a></li>
+          <li><a href="solutions.html#it">Data science &amp; machine learning</a></li>
+        </ul>
+      </article>
+      <article class="pillar">
+        <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="#C2410C" stroke-width="1.6"><path d="M5 19c0-8 5-13 14-14-1 9-6 14-14 14Z"/><path d="M5 19 13 11"/></svg>
+        <h3>Sustainability</h3>
+        <p class="muted">Evidence for the energy transition: economic, environmental and resource assessments that guide investment and policy.</p>
+        <ul>
+          <li><a href="solutions.html#sustainability">Techno-economic analysis</a></li>
+          <li><a href="research.html">Carbon capture &amp; clean fuels</a></li>
+          <li><a href="solutions.html#sustainability">Water–energy–food nexus</a></li>
+          <li><a href="research-support.html">Environmental research &amp; PFAS</a></li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="band" id="research">
+    <div class="wrap s-80">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Research &amp; publications</p>
+          <h2 class="h2">Latest from our research programme</h2>
+        </div>
+        <a class="more-link" href="research.html">View all publications →</a>
+      </div>
+      <div class="grid g-340 gap-24">
+        {{> highlights}}
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap s-88-72" id="experience">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Selected team experience</p>
+        <h2 class="h2">From the lab to the grid to the cloud</h2>
+      </div>
+      <a class="more-link" href="projects.html">View all projects →</a>
+    </div>
+    <div class="grid g-340">
+      {{> homeProjects}}
+    </div>
+  </section>
+
+  <section class="band" id="gallery" aria-labelledby="gallery-title" style="border-bottom:0">
+    <div class="wrap s-72">
+      <div class="section-head mb-28">
+        <div>
+          <p class="eyebrow">In the field</p>
+          <h2 class="h2" id="gallery-title">Our work in pictures</h2>
+        </div>
+        <a class="more-link" href="#gallery">Open gallery →</a>
+      </div>
+      <div class="grid g-240 gap-16 gallery">
+        {{> gallery}}
+      </div>
+    </div>
+  </section>
+
+  <section class="creds" aria-label="Team credentials">
+    <div class="wrap">
+      <ul>
+        <li class="kicker">Team credentials</li>
+        <li>KNUST, Kumasi</li>
+        <li>AWS Solutions Architect – Associate</li>
+        <li>AWS Cloud Practitioner</li>
+        <li>Huawei Routing &amp; Switching</li>
+        <li>Cisco Ethical Hacker</li>
+        <li>Meta Data Analyst</li>
+        <li>IBM Back-end JavaScript Developer</li>
+        <li>IBM Python for Data Science</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="wrap s-88" id="team">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Our people</p>
+        <h2 class="h2">Leadership</h2>
+      </div>
+      <a class="more-link" href="about.html#team">Meet the team →</a>
+    </div>
+    <div class="grid g-380">
+      {{> teamShort}}
+    </div>
+  </section>
+
+  <section class="dark" id="partner">
+    <div class="wrap s-80">
+      <h2 class="h2 mb-12">Partner with us</h2>
+      <p class="intro mb-40">Whether you fund research, run an operation or lead a lab, we can build the evidence and the systems you need.</p>
+      <div class="grid g-280 gap-24">
+        <div class="partner-col">
+          <h3>Funders &amp; grant bodies</h3>
+          <p>Rigorous research partners for energy, climate and digital programmes in Ghana, West Africa and beyond.</p>
+          <a class="on-dark" href="mailto:info@enjel.space?subject=Grant%20partnership">Discuss a grant →</a>
+        </div>
+        <div class="partner-col">
+          <h3>Industry &amp; public clients</h3>
+          <p>Feasibility studies, process design, renewable installations and secure cloud infrastructure.</p>
+          <a class="on-dark" href="mailto:info@enjel.space?subject=Proposal%20request">Request a proposal →</a>
+        </div>
+        <div class="partner-col">
+          <h3>Academic collaborators</h3>
+          <p>Joint modelling, data and publication work with universities and research centres.</p>
+          <a class="on-dark" href="mailto:info@enjel.space?subject=Research%20collaboration">Start a collaboration →</a>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,6 @@
+[
+  { "image": "assets/img/gallery-solar.jpg", "alt": "Technicians fixing solar panels on a rooftop", "caption": "[Caption: solar installation, location, year]" },
+  { "image": "assets/img/gallery-lab.jpg", "alt": "Gloved hand holding a flask in a laboratory", "caption": "[Caption: biodiesel or GC–MS laboratory work]" },
+  { "image": "assets/img/gallery-community.jpg", "alt": "Group discussion around a meeting table", "caption": "[Caption: stakeholder or community session]" },
+  { "image": "assets/img/gallery-conference.jpg", "alt": "Audience at a conference session", "caption": "[Caption: iCAD 2025 presentation]" }
+]
