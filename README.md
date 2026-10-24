@@ -107,7 +107,7 @@ labelled placeholder; fill it in to show the photo.
 |---|---|
 | Project cards (Onaa, Trans-Sahara, HANEP, rooftop PV, biomethanation, smishing, Smart Campus, tenders) | `data/projects.json` → `image` + `alt` (Home card can override with `home.image` / `home.alt`) |
 | Team portraits | `data/team.json` → `portrait` (e.g. `assets/img/joseph.jpg`), portrait shape 5:6 |
-| About page team photo | `site.config.json` → `aboutTeamPhoto` + `aboutTeamPhotoAlt` (4:3) |
+| About page team photo | `site.config.json` → `aboutTeamPhoto` + `aboutTeamPhotoAlt` (4:3). While empty, an animated EnJEL logo shows there instead (built in `build.js`, styled in `site.css` under "Animated logo"). |
 | Partner logos | `data/partners.json` → `logo` (PNG or SVG, in `assets/img/logos/`); optional `caption` shows text under the logo |
 | Home hero and Solutions photos | `src/pages/index.html` / `src/pages/solutions.html`, in the `{{> img …}}` lines |
 

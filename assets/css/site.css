@@ -211,6 +211,35 @@ picture { display: block; }
 }
 .rounded { border-radius: var(--radius); overflow: hidden; }
 
+/* Animated logo (About page, in place of a team photo) */
+.logo-motion { background: var(--dark); width: 100%; }
+.logo-motion svg { display: block; width: 100%; height: 100%; }
+.lm-dot { fill: #2e2e2e; }
+.lm-orbit { fill: none; stroke: #3a3a3a; stroke-width: 1.5; stroke-dasharray: 4 10; transform-origin: 200px 152px; animation: lm-spin 40s linear infinite; }
+.lm-orbit-2 { stroke: #2f2f2f; stroke-dasharray: 2 14; animation-duration: 60s; animation-direction: reverse; }
+.lm-edge { fill: none; stroke: var(--accent); stroke-width: 8; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1; animation: lm-draw .7s cubic-bezier(.6,0,.3,1) forwards; }
+.e1 { animation-delay: .7s; } .e2 { animation-delay: .9s; } .e3 { animation-delay: 1.1s; }
+.lm-node { fill: none; stroke: var(--accent); stroke-width: 8; transform-box: fill-box; transform-origin: center; transform: scale(0); animation: lm-pop .6s cubic-bezier(.3,1.5,.5,1) forwards, lm-breathe 4s ease-in-out 2.4s infinite; }
+.n1 { animation-delay: .1s, 2.4s; } .n2 { animation-delay: .3s, 3.7s; } .n3 { animation-delay: .5s, 5s; }
+.lm-pulse { fill: var(--on-dark-link); opacity: 0; offset-rotate: 0deg; animation: lm-travel 3.6s ease-in-out infinite; }
+.p-e1 { animation-delay: 2s; } .p-e2 { animation-delay: 3.2s; } .p-e3 { animation-delay: 4.4s; }
+.lm-word { font-family: var(--serif); font-weight: 700; font-size: 30px; fill: #ffffff; opacity: 0; animation: lm-fade .8s ease 1.5s forwards; }
+.lm-sub { font-family: var(--sans); font-size: 10px; letter-spacing: 2.4px; fill: var(--on-dark); opacity: 0; animation: lm-fade .8s ease 1.8s forwards; }
+@keyframes lm-draw { to { stroke-dashoffset: 0; } }
+@keyframes lm-pop { to { transform: scale(1); } }
+@keyframes lm-breathe { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+@keyframes lm-travel { 0% { offset-distance: 0%; opacity: 0; } 10% { opacity: 1; } 45% { offset-distance: 100%; opacity: 1; } 55%, 100% { offset-distance: 100%; opacity: 0; } }
+@keyframes lm-fade { to { opacity: 1; } }
+@keyframes lm-spin { to { transform: rotate(360deg); } }
+.lm-wait .logo-motion:not(.is-playing) * { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  .logo-motion * { animation: none !important; }
+  .lm-edge { stroke-dashoffset: 0; }
+  .lm-node { transform: none; }
+  .lm-word, .lm-sub { opacity: 1; }
+  .lm-pulse { display: none; }
+}
+
 /* Pillars (home) */
 .pillar { border-top: 4px solid var(--dark); padding-top: 24px; display: flex; flex-direction: column; gap: 14px; }
 .pillar h3 { font-family: var(--serif); font-size: 26px; font-weight: 600; }

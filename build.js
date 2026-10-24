@@ -142,8 +142,29 @@ const components = {
     }).join('\n      ');
   },
 
+  // A team photo if one is set in site.config.json, otherwise the animated logo.
   aboutTeamPhoto() {
-    return photoSlot(config.aboutTeamPhoto, config.aboutTeamPhotoAlt, 'EnJEL team portrait', 'r-4-3 rounded');
+    if (config.aboutTeamPhoto) return photoSlot(config.aboutTeamPhoto, config.aboutTeamPhotoAlt, 'EnJEL team portrait', 'r-4-3 rounded');
+    const edges = [
+      ['M184.9 95.9 139.2 174.1', 'e1'],
+      ['M215.1 95.9 260.8 174.1', 'e2'],
+      ['M154 200H246', 'e3'],
+    ];
+    return `<div class="logo-motion r-4-3 rounded" role="img" aria-label="Animated EnJEL logo: three connected nodes">
+            <svg viewBox="0 0 400 300" aria-hidden="true" focusable="false">
+              <defs><pattern id="lm-dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" class="lm-dot"/></pattern></defs>
+              <rect width="400" height="300" fill="url(#lm-dots)"/>
+              <circle class="lm-orbit" cx="200" cy="152" r="118"/>
+              <circle class="lm-orbit lm-orbit-2" cx="200" cy="152" r="134"/>
+              ${edges.map(([d, c]) => `<path class="lm-edge ${c}" d="${d}" pathLength="1"/>`).join('')}
+              <circle class="lm-node n1" cx="200" cy="70" r="24"/>
+              <circle class="lm-node n2" cx="124" cy="200" r="24"/>
+              <circle class="lm-node n3" cx="276" cy="200" r="24"/>
+              ${edges.map(([d, c]) => `<circle class="lm-pulse p-${c}" r="4" style="offset-path:path('${d}')"/>`).join('')}
+              <text class="lm-word" x="200" y="262" text-anchor="middle">EnJEL</text>
+              <text class="lm-sub" x="200" y="284" text-anchor="middle">RESEARCH &amp; ENGINEERING</text>
+            </svg>
+          </div>`;
   },
 
   pubFilters() {

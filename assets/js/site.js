@@ -23,6 +23,19 @@
     });
   }
 
+  // ---------- Animated logo: start when it scrolls into view ----------
+  var motion = $('.logo-motion');
+  if (motion && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('lm-wait');
+    var io = new IntersectionObserver(function (entries) {
+      if (entries.some(function (e) { return e.isIntersecting; })) {
+        motion.classList.add('is-playing');
+        io.disconnect();
+      }
+    }, { threshold: 0.4 });
+    io.observe(motion);
+  }
+
   // ---------- Newsletter (Formspree) ----------
   $$('form[data-newsletter]').forEach(function (form) {
     var status = $('.form-status', form);
