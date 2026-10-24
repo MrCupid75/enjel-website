@@ -113,6 +113,10 @@ labelled placeholder; fill it in to show the photo.
 
 Photos are cropped to fit their box, so keep the subject near the centre.
 
+The Ghana GOALS photo is EnJEL's own. The other project photos are free
+Pexels stock images of African settings (Ghana, Kenya, Nigeria), used as
+illustrations until real project photos are available: swap them the same way.
+
 ## Newsletter sign-up form
 
 GitHub Pages can't receive form submissions, so the footer form posts to

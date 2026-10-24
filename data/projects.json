@@ -7,15 +7,25 @@
     "partner": "Innovate UK Energy Catalyst",
     "summary": "A community solar mini-grid with electric cooking in schools across the Ashanti Region. Our team analysed the energy data, tracked performance and turned the monitoring record into peer-reviewed research.",
     "period": "Team experience · 2022–2024",
-    "image": "",
-    "alt": "",
+    "image": "assets/img/project-ghana-goals.jpg",
+    "alt": "Steel mounting frame for the Onaa solar mini-grid under construction, with workers on site",
     "placeholder": "Onaa solar PV mini-grid and e-cookers",
     "featured": {
       "label": "Featured case study · Sustainability",
       "stats": [
-        { "label": "Capacity", "value": "35 kWp" },
-        { "label": "Schools", "value": "4" },
-        { "label": "Funder", "value": "Innovate UK Energy Catalyst", "small": true }
+        {
+          "label": "Capacity",
+          "value": "35 kWp"
+        },
+        {
+          "label": "Schools",
+          "value": "4"
+        },
+        {
+          "label": "Funder",
+          "value": "Innovate UK Energy Catalyst",
+          "small": true
+        }
       ]
     },
     "home": {
@@ -34,8 +44,8 @@
     "partner": "EU Horizon Europe · Water–energy–food nexus",
     "summary": "Stakeholder mapping, baseline studies and site selection for agroforestry Living Labs in Northern Ghana.",
     "period": "Team experience · 2025–2027",
-    "image": "",
-    "alt": "",
+    "image": "assets/img/project-trans-sahara.jpg",
+    "alt": "Two women in headscarves filling sacks with grain under trees in Ghana",
     "placeholder": "Northern Ghana Living Lab site",
     "home": {
       "order": 2,
@@ -52,8 +62,8 @@
     "partner": "AfDB-funded SREP procurement, Ghana",
     "summary": "Technical approach, Gantt scheduling and price schedules for rooftop PV across public institutions.",
     "period": "Team experience",
-    "image": "",
-    "alt": "",
+    "image": "assets/img/project-rooftop-solar.jpg",
+    "alt": "Technician crimping cables beside solar panels on a metal roof",
     "placeholder": "Rooftop solar on a public building"
   },
   {
@@ -64,8 +74,8 @@
     "partner": "Applied research",
     "summary": "Performance evaluation, design optimisation and experimental testing for efficient biogas production.",
     "period": "Team experience",
-    "image": "",
-    "alt": "",
+    "image": "assets/img/project-biomethanation.jpg",
+    "alt": "Farmers in Kenya feeding dairy cows at a wooden trough",
     "placeholder": "Biogas digester",
     "home": {
       "order": 4,
@@ -82,8 +92,8 @@
     "partner": "NGDA Challenge 2026 · EPRA, DTU Skylab, Embassy of Denmark",
     "summary": "A web platform that validates and aggregates 47 county energy plans into Kenya’s Integrated National Energy Plan.",
     "period": "Team experience · 2026",
-    "image": "",
-    "alt": "",
+    "image": "assets/img/project-hanep.jpg",
+    "alt": "Software developer writing code on two screens in a Nairobi office",
     "placeholder": "HANEP platform dashboard",
     "home": {
       "order": 6,
@@ -120,8 +130,8 @@
     "partner": "Machine learning · Mobile security",
     "summary": "A real-time classifier that flags fraudulent MTN Mobile Money messages inside a mobile application.",
     "period": "Team experience · KNUST",
-    "image": "",
-    "alt": "",
+    "image": "assets/img/project-smishing.jpg",
+    "alt": "Man in Abuja, Nigeria, talking on a mobile phone",
     "placeholder": "Mobile app screens"
   },
   {
@@ -132,8 +142,8 @@
     "partner": "Python · Telegram",
     "summary": "A chatbot giving students directions, place descriptions and live news across the KNUST campus.",
     "period": "Team experience · KNUST",
-    "image": "",
-    "alt": "",
+    "image": "assets/img/project-smart-campus.jpg",
+    "alt": "Graduates in gowns and caps outside a university building in Winneba, Ghana",
     "placeholder": "Chatbot on a phone"
   },
   {
@@ -144,8 +154,8 @@
     "partner": "Public procurement, Ghana",
     "summary": "Bills of quantities, technical proposals and multi-company bid synchronisation for energy and infrastructure tenders.",
     "period": "Consulting",
-    "image": "",
-    "alt": "",
+    "image": "assets/img/project-tenders.jpg",
+    "alt": "Engineer in a white hard hat studying site plans outdoors",
     "placeholder": "Tender documents and drawings"
   }
 ]
