@@ -135,7 +135,8 @@ const components = {
     return data.partners.map((p) => {
       if (p.logo) {
         checkAsset(p.logo);
-        return `<div class="logo-tile"><img src="${esc(p.logo)}" alt="${esc(p.name)} logo" loading="lazy"></div>`;
+        const caption = p.caption ? `<span class="logo-caption" aria-hidden="true">${esc(p.caption)}</span>` : '';
+        return `<div class="logo-tile"><img src="${esc(p.logo)}" alt="${esc(p.name)} logo" loading="lazy">${caption}</div>`;
       }
       return `<div class="logo-tile" role="img" aria-label="Logo placeholder: ${esc(p.name)}">[Logo] ${esc(p.label)}</div>`;
     }).join('\n      ');

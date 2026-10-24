@@ -325,7 +325,9 @@ a.proj-card:hover .proj-title { color: var(--link); text-decoration: underline; 
 .timeline .when { flex: 0 0 140px; font-family: var(--serif); font-size: 22px; font-weight: 600; color: var(--link); }
 .timeline .what { flex: 1 1 480px; color: #333333; }
 .logo-tile { height: 96px; border: 1px solid var(--border); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; font-size: 14px; color: var(--text-3); padding: 12px; text-align: center; }
-.logo-tile img { max-height: 64px; max-width: 100%; object-fit: contain; }
+.logo-tile { gap: 10px; }
+.logo-tile img { max-height: 56px; max-width: 100%; object-fit: contain; }
+.logo-caption { font-size: 18px; font-weight: 600; color: var(--text); letter-spacing: 0.2px; }
 
 /* Research page */
 .listing { display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start; }

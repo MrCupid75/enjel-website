@@ -108,7 +108,7 @@ labelled placeholder; fill it in to show the photo.
 | Project cards (Onaa, Trans-Sahara, HANEP, rooftop PV, biomethanation, smishing, Smart Campus, tenders) | `data/projects.json` → `image` + `alt` (Home card can override with `home.image` / `home.alt`) |
 | Team portraits | `data/team.json` → `portrait` (e.g. `assets/img/joseph.jpg`), portrait shape 5:6 |
 | About page team photo | `site.config.json` → `aboutTeamPhoto` + `aboutTeamPhotoAlt` (4:3) |
-| Partner logos | `data/partners.json` → `logo` (PNG or SVG) |
+| Partner logos | `data/partners.json` → `logo` (PNG or SVG, in `assets/img/logos/`); optional `caption` shows text under the logo |
 | Home hero and Solutions photos | `src/pages/index.html` / `src/pages/solutions.html`, in the `{{> img …}}` lines |
 
 Photos are cropped to fit their box, so keep the subject near the centre.
@@ -116,6 +116,13 @@ Photos are cropped to fit their box, so keep the subject near the centre.
 The Ghana GOALS photo is EnJEL's own. The other project photos are free
 Pexels stock images of African settings (Ghana, Kenya, Nigeria), used as
 illustrations until real project photos are available: swap them the same way.
+
+Partner logos come from each organisation's official source (KNUST and SEED
+Centre websites, Wikimedia Commons for DTU, EPRA and Innovate UK). DTU Skylab
+has no logo of its own, so it uses the DTU logo with "Skylab" beside it, as
+its own website does. For Horizon Europe the EU asks funded projects to show
+the official "Funded by the European Union" emblem (from the European
+Commission's download centre) rather than a programme logo.
 
 ## Newsletter sign-up form
 
