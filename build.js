@@ -22,7 +22,6 @@ const data = {
   highlights: readJSON('data/highlights.json'),
   team: readJSON('data/team.json'),
   partners: readJSON('data/partners.json'),
-  gallery: readJSON('data/gallery.json'),
   support: readJSON('data/support.json'),
 };
 
@@ -96,14 +95,6 @@ const components = {
           </span>
         </a>`;
     }).join('');
-  },
-
-  gallery() {
-    return data.gallery.map((g) => `
-        <figure>
-          ${photoSlot(g.image, g.alt, g.alt || 'Gallery photo', 'r-16-10')}
-          <figcaption>${esc(g.caption)}</figcaption>
-        </figure>`).join('');
   },
 
   teamShort() {

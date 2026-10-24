@@ -16,7 +16,6 @@ Pages every time you push to `main`.
 | `data/projects.json` | Projects (Projects page, plus the Home cards via each project's `home` block) |
 | `data/team.json` | Leadership bios and portraits |
 | `data/partners.json` | Partner logos on the About page |
-| `data/gallery.json` | Home page gallery photos and captions |
 | `data/support.json` | Research support topics |
 | `site.config.json` | Email, newsletter form address, About team photo |
 | `assets/css/site.css` | All styling (colours at the top) |
@@ -110,7 +109,6 @@ labelled placeholder; fill it in to show the photo.
 | Team portraits | `data/team.json` → `portrait` (e.g. `assets/img/joseph.jpg`), portrait shape 5:6 |
 | About page team photo | `site.config.json` → `aboutTeamPhoto` + `aboutTeamPhotoAlt` (4:3) |
 | Partner logos | `data/partners.json` → `logo` (PNG or SVG) |
-| Gallery photos and captions | `data/gallery.json` → `image`, `alt`, `caption` (replace the `[Caption: …]` text) |
 | Home hero and Solutions photos | `src/pages/index.html` / `src/pages/solutions.html`, in the `{{> img …}}` lines |
 
 Photos are cropped to fit their box, so keep the subject near the centre.

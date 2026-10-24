@@ -271,10 +271,6 @@ a.proj-card:hover .proj-title { color: var(--link); text-decoration: underline; 
 .stat-band .big { font-family: var(--serif); font-size: 64px; font-weight: 600; color: var(--accent); line-height: 1; }
 .stat-band h2 { font-family: var(--serif); font-size: 30px; font-weight: 600; margin-bottom: 8px; }
 
-/* Gallery */
-.gallery figure { display: flex; flex-direction: column; gap: 8px; }
-.gallery figcaption { font-size: 13px; color: var(--text-3); }
-
 /* Credentials */
 .creds { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .creds ul { list-style: none; padding: 36px 0; display: flex; flex-wrap: wrap; gap: 16px 36px; align-items: center; font-size: 14px; color: var(--text-2); }
