@@ -45,24 +45,6 @@
     }
   },
   {
-    "id": "yeboahkrom-mini-grid",
-    "pillar": "Engineering",
-    "status": "Completed",
-    "title": "Solar mini-grid for Yeboahkrom",
-    "partner": "KNUST–TUM SEED Centre",
-    "summary": "Design and delivery support for rural electrification in an off-grid community.",
-    "period": "Team experience",
-    "image": "",
-    "alt": "",
-    "placeholder": "Yeboahkrom mini-grid",
-    "home": {
-      "order": 3,
-      "label": "KNUST–TUM SEED Centre",
-      "title": "Solar mini-grid for Yeboahkrom",
-      "summary": "Rural electrification and energy-access work under the SEED Centre programme."
-    }
-  },
-  {
     "id": "rooftop-solar-public-buildings",
     "pillar": "Engineering",
     "status": "Bid submitted",

@@ -105,7 +105,7 @@ labelled placeholder; fill it in to show the photo.
 
 | Slot | Where to set it |
 |---|---|
-| Project cards (Onaa, Trans-Sahara, Yeboahkrom, HANEP, rooftop PV, biomethanation, smishing, Smart Campus, tenders) | `data/projects.json` → `image` + `alt` (Home card can override with `home.image` / `home.alt`) |
+| Project cards (Onaa, Trans-Sahara, HANEP, rooftop PV, biomethanation, smishing, Smart Campus, tenders) | `data/projects.json` → `image` + `alt` (Home card can override with `home.image` / `home.alt`) |
 | Team portraits | `data/team.json` → `portrait` (e.g. `assets/img/joseph.jpg`), portrait shape 5:6 |
 | About page team photo | `site.config.json` → `aboutTeamPhoto` + `aboutTeamPhotoAlt` (4:3) |
 | Partner logos | `data/partners.json` → `logo` (PNG or SVG) |

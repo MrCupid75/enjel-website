@@ -37,7 +37,7 @@ Build its public website from the designs in `design/` and host it on GitHub Pag
 
 ## Placeholders to KEEP (real photos come later)
 Keep a labelled grey placeholder box, same aspect ratio, for:
-- Project cards: Onaa / Ghana GOALS mini-grid, Trans-Sahara Living Labs, Yeboahkrom mini-grid,
+- Project cards: Onaa / Ghana GOALS mini-grid, Trans-Sahara Living Labs,
   HANEP, Rooftop solar PV, Biomethanation, Mobile-money smishing detector, Smart Campus Guide,
   Tender and bid support.
 - Team portraits (Joseph Mawulorm Mensah, Ephraim Abotsi) and the About team photo.
