@@ -5,31 +5,40 @@
     "portrait": "",
     "short_bio": "Environmental engineer (BSc, UENR) with an MSc in Renewable Energy Technologies from KNUST and further postgraduate study in thermofluids and climate change. Designs solar PV and biogas systems, develops carbon projects, and was site supervisor on the Innovate UK Ghana GOALS mini-grid.",
     "bio": "Engineer and researcher working across renewable energy, biogas, carbon markets and data science. Jesse was site supervisor on the Innovate UK-funded Ghana GOALS mini-grid, has designed and built biogas digesters and solar PV systems, and co-developed the STI security model for advanced metering infrastructure (AMI) networks.",
-    "education": ["MPhil Thermofluids and Energy Systems, KNUST", "MSc Climate Change and Sustainable Development, University of Ghana", "MSc Renewable Energy Technologies, KNUST", "BSc Environmental Engineering, UENR"],
-    "expertise": ["Solar PV & mini-grid design, biogas systems, carbon project development, machine learning & data analysis"],
-    "certifications": ["UNFCCC Technical Expert Reviewer", "Energy Performance Assessor for Buildings, Energy Commission of Ghana", "IBM Data Science Professional Certificate"],
+    "education": [
+      "MPhil Thermofluids and Energy Systems, KNUST",
+      "MSc Climate Change and Sustainable Development, University of Ghana",
+      "MSc Renewable Energy Technologies, KNUST",
+      "BSc Environmental Engineering, UENR"
+    ],
+    "expertise": [
+      "Solar PV & mini-grid design, biogas systems, carbon project development, machine learning & data analysis"
+    ],
+    "certifications": [
+      "UNFCCC Technical Expert Reviewer",
+      "Energy Performance Assessor for Buildings, Energy Commission of Ghana",
+      "IBM Data Science Professional Certificate"
+    ],
     "linkedin": "https://www.linkedin.com/in/jesse-damptey-5565b75b"
   },
   {
-    "name": "Joseph Mawulorm Mensah",
-    "role": "Deputy Research Engineer",
-    "portrait": "",
-    "short_bio": "Petroleum engineer (BSc, KNUST) completing an MPhil in Chemical Engineering. Works on renewable energy systems, biodiesel and biogas R&D, and AI-driven data modelling for internationally funded energy projects.",
-    "bio": "Analytical engineer and researcher working across renewable energy systems, process modelling, AI and backend software. Joseph has contributed to internationally funded energy and sustainability projects, including Ghana GOALS and Trans-Sahara Living Labs, and leads modelling of catalytic biodiesel production at KNUST.",
-    "education": ["MPhil Chemical Engineering, KNUST (in progress)", "BSc Petroleum Engineering, KNUST"],
-    "expertise": ["Multiphysics & process simulation, solar mini-grids, biogas, machine learning"],
-    "certifications": ["Meta Data Analyst", "IBM Back-end JavaScript Developer"],
-    "linkedin": "https://linkedin.com/in/joseph-mensah"
-  },
-  {
     "name": "Ephraim Abotsi",
-    "role": "Technical Officer",
+    "role": "Chief Technical Officer",
     "portrait": "",
     "short_bio": "Computer scientist (BSc, First-class Honours, KNUST) pursuing an MPhil in Computer Science. AWS Certified Solutions Architect working on cloud infrastructure, networking, security and machine-learning applications.",
     "bio": "Computer scientist with a First-class degree from KNUST and a background in Python, networking, security and cloud computing. Ephraim builds cloud infrastructure and machine-learning tools, including a real-time detector for mobile-money fraud messages, and brings teaching experience supporting 40+ final-year projects.",
-    "education": ["MPhil Computer Science, KNUST (in progress)", "BSc Computer Science, KNUST (First-class)"],
-    "expertise": ["AWS architecture, networking, security, Python & data analysis"],
-    "certifications": ["AWS Solutions Architect – Associate", "AWS Cloud Practitioner", "Huawei Routing & Switching"],
+    "education": [
+      "MPhil Computer Science, KNUST (in progress)",
+      "BSc Computer Science, KNUST (First-class)"
+    ],
+    "expertise": [
+      "AWS architecture, networking, security, Python & data analysis"
+    ],
+    "certifications": [
+      "AWS Solutions Architect – Associate",
+      "AWS Cloud Practitioner",
+      "Huawei Routing & Switching"
+    ],
     "linkedin": "https://linkedin.com/in/ephraim-abotsi"
   }
 ]
