@@ -2,7 +2,7 @@
   {
     "name": "Jesse Damptey",
     "role": "Research Engineer",
-    "portrait": "",
+    "portrait": "assets/img/jesse-damptey.jpg",
     "short_bio": "Environmental engineer (BSc, UENR) with an MSc in Renewable Energy Technologies from KNUST and further postgraduate study in thermofluids and climate change. Designs solar PV and biogas systems, develops carbon projects, and was site supervisor on the Innovate UK Ghana GOALS mini-grid.",
     "bio": "Engineer and researcher working across renewable energy, biogas, carbon markets and data science. Jesse was site supervisor on the Innovate UK-funded Ghana GOALS mini-grid, has designed and built biogas digesters and solar PV systems, and co-developed the STI security model for advanced metering infrastructure (AMI) networks.",
     "education": [
@@ -24,7 +24,7 @@
   {
     "name": "Ephraim Abotsi",
     "role": "Chief Technical Officer",
-    "portrait": "",
+    "portrait": "assets/img/ephraim-abotsi.jpg",
     "short_bio": "Computer scientist (BSc, First-class Honours, KNUST) pursuing an MPhil in Computer Science. AWS Certified Solutions Architect working on cloud infrastructure, networking, security and machine-learning applications.",
     "bio": "Computer scientist with a First-class degree from KNUST and a background in Python, networking, security and cloud computing. Ephraim builds cloud infrastructure and machine-learning tools, including a real-time detector for mobile-money fraud messages, and brings teaching experience supporting 40+ final-year projects.",
     "education": [
