@@ -270,6 +270,10 @@ const components = {
 };
 
 // ---------- layout ----------
+// Content hashes for the CSS/JS links, so browsers fetch fresh copies after each change.
+const hash = (p) => require('crypto').createHash('md5').update(read(p)).digest('hex').slice(0, 8);
+const ASSET_VERSION = { css: hash('assets/css/site.css'), js: hash('assets/js/site.js') };
+
 const NAV = [
   ['research', 'research.html', 'Research'],
   ['solutions', 'solutions.html', 'Solutions'],
@@ -299,7 +303,7 @@ function layout(meta, body) {
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/site.css">
+<link rel="stylesheet" href="assets/css/site.css?v=${ASSET_VERSION.css}">
 <script>document.documentElement.classList.remove('no-js');</script>
 </head>
 <body>
@@ -397,7 +401,7 @@ ${body}
     </div>
   </div>
 </footer>
-<script src="assets/js/site.js" defer></script>
+<script src="assets/js/site.js?v=${ASSET_VERSION.js}" defer></script>
 </body>
 </html>
 `;
