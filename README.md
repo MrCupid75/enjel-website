@@ -165,9 +165,8 @@ The site lives at **https://enjel.org**. The domain is registered at
   the ones above.
 - Renew the domain at Porkbun each year (turn on auto-renew).
 
-## Placeholders still to fill in
+## Contact details
 
-- `[Office address]`, `[+233 phone number]` and `[Company registration no.]` in the footer (`build.js`, search for them)
-- `[Confirm founding date]` on the About page timeline (`src/pages/about.html`)
-- `Target: [journal]` in one manuscript (`data/publications.json`)
-- Privacy, Terms and Accessibility links in the footer currently point to the contact section
+Email, phone and office address in the footer come from `site.config.json`
+(`email`, `phone`, `phoneIntl` for the tap-to-call link, `address`). Change
+them there and every page updates.

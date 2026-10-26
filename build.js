@@ -351,10 +351,10 @@ ${body}
       <div class="footer-col">
         <span class="fname">EnJEL</span>
         <span class="muted">Research, engineering and development across engineering, IT and sustainability.</span>
-        <span class="muted">[Office address], Ghana</span>
+        <span class="muted">${esc(config.address)}</span>
         <a href="mailto:${esc(config.email)}">${esc(config.email)}</a>
+        <a href="tel:${esc(config.phoneIntl)}">${esc(config.phone)}</a>
         <a href="https://enjel.org">enjel.org</a>
-        <span class="muted">[+233 phone number]</span>
       </div>
       <nav class="footer-col" aria-label="Research areas">
         <span class="fhead">Research areas</span>
@@ -375,7 +375,7 @@ ${body}
         <a href="about.html">About us</a>
         <a href="about.html#team">Our people</a>
         <a href="projects.html">Projects</a>
-        <a href="#contact">Careers</a>
+        <a href="research-support.html">Research support</a>
       </nav>
       <!-- Newsletter: GitHub Pages can't receive form posts. TODO: set "newsletterEndpoint"
            in site.config.json to your Formspree form URL (https://formspree.io/f/xxxxxxx). -->
@@ -391,13 +391,7 @@ ${body}
       </form>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 EnJEL Research &amp; Engineering. [Company registration no.]</span>
-      <nav aria-label="Legal">
-        <a href="#contact">Privacy</a>
-        <a href="#contact">Terms</a>
-        <a href="#contact">Accessibility</a>
-        <a href="https://www.linkedin.com">LinkedIn</a>
-      </nav>
+      <span>© 2026 EnJEL Research &amp; Engineering, Kumasi, Ghana.</span>
     </div>
   </div>
 </footer>

@@ -2,6 +2,9 @@
   "siteName": "EnJEL",
   "siteUrl": "https://enjel.org",
   "email": "info@enjel.org",
+  "phone": "024 283 5458",
+  "phoneIntl": "+233242835458",
+  "address": "KNUST, Kumasi, Ghana",
   "newsletterEndpoint": "https://formspree.io/f/YOUR_FORM_ID",
   "aboutTeamPhoto": "",
   "aboutTeamPhotoAlt": "The EnJEL team"
