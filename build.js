@@ -353,7 +353,7 @@ ${body}
         <span class="muted">Research, engineering and development across engineering, IT and sustainability.</span>
         <span class="muted">[Office address], Ghana</span>
         <a href="mailto:${esc(config.email)}">${esc(config.email)}</a>
-        <a href="https://enjel.space">enjel.space</a>
+        <a href="https://enjel.org">enjel.org</a>
         <span class="muted">[+233 phone number]</span>
       </div>
       <nav class="footer-col" aria-label="Research areas">

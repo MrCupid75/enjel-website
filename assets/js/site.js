@@ -42,7 +42,7 @@
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       if (/YOUR_FORM_ID/.test(form.action)) {
-        status.textContent = 'Sign-up isn’t connected yet. Please email info@enjel.space to join the list.';
+        status.textContent = 'Sign-up isn’t connected yet. Please email info@enjel.org to join the list.';
         return;
       }
       status.textContent = 'Sending…';
@@ -52,7 +52,7 @@
           form.reset();
           status.textContent = 'Thank you. You’re on the list.';
         })
-        .catch(function () { status.textContent = 'Something went wrong. Please try again or email info@enjel.space.'; });
+        .catch(function () { status.textContent = 'Something went wrong. Please try again or email info@enjel.org.'; });
     });
   });
 

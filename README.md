@@ -135,7 +135,7 @@ GitHub Pages can't receive form submissions, so the footer form posts to
 "newsletterEndpoint": "https://formspree.io/f/abcdwxyz"
 ```
 
-Until then, the form tells visitors to email info@enjel.space instead.
+Until then, the form tells visitors to email info@enjel.org instead.
 
 ## Publish
 
@@ -146,21 +146,24 @@ which builds the site and deploys it. Progress shows under the repository's
 One-time setup (already done if the site is live): in the repository on GitHub,
 **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 
-## Connect a custom domain (e.g. enjel.space)
+## Custom domain (enjel.org)
 
-Not set up yet. When you're ready:
+The site lives at **https://enjel.org**. The domain is registered at
+**Porkbun**, and DNS is managed there.
 
-1. On GitHub: **Settings → Pages → Custom domain**, enter `enjel.space`, Save.
-   (With GitHub Actions publishing you don't need a `CNAME` file; this setting
-   is what counts.)
-2. At your domain registrar, add DNS records:
-   - For `enjel.space`: four `A` records pointing to
-     `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - For `www.enjel.space`: a `CNAME` record pointing to `<your-github-username>.github.io`
-3. Wait for DNS to update (minutes to a few hours), then tick **Enforce HTTPS**
-   in Settings → Pages.
-4. Optional but recommended: verify the domain under your GitHub account's
-   **Settings → Pages → Verified domains** so nobody else can claim it.
+- GitHub: repo **Settings → Pages → Custom domain** is `enjel.org`, with
+  **Enforce HTTPS** on. The certificate renews automatically. With GitHub
+  Actions publishing, no `CNAME` file is needed; this setting is what counts.
+- Porkbun DNS records for the website (don't delete these):
+  - four `A` records on the root: `185.199.108.153`, `185.199.109.153`,
+    `185.199.110.153`, `185.199.111.153`
+  - `CNAME` on `www` → `mrcupid75.github.io`
+  - `TXT` on `_github-pages-challenge-MrCupid75` (GitHub domain verification)
+- `www.enjel.org`, `http://` and the old `mrcupid75.github.io/enjel-website/`
+  address all redirect to `https://enjel.org`.
+- Email (Zoho) uses separate `MX`/`TXT` records and doesn't conflict with
+  the ones above.
+- Renew the domain at Porkbun each year (turn on auto-renew).
 
 ## Placeholders still to fill in
 
