@@ -377,8 +377,8 @@ ${body}
         <a href="projects.html">Projects</a>
         <a href="research-support.html">Research support</a>
       </nav>
-      <!-- Newsletter: GitHub Pages can't receive form posts. TODO: set "newsletterEndpoint"
-           in site.config.json to your Formspree form URL (https://formspree.io/f/xxxxxxx). -->
+      <!-- Newsletter: GitHub Pages can't receive form posts, so this posts to Formspree
+           ("newsletterEndpoint" in site.config.json). -->
       <form class="footer-col" action="${esc(config.newsletterEndpoint)}" method="POST" data-newsletter>
         <label for="news-email" class="fhead">Research updates</label>
         <span class="muted" id="news-help">New publications and project news, monthly.</span>

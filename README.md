@@ -129,13 +129,17 @@ Commission's download centre) rather than a programme logo.
 GitHub Pages can't receive form submissions, so the footer form posts to
 [Formspree](https://formspree.io) (free tier is fine).
 
-**TODO:** create a form at Formspree, then put its address in `site.config.json`:
+The form is **EnJEL newsletter** in the Formspree account (form ID `mvkkrbyd`).
+Sign-ups are emailed to the address set on that form in Formspree, and are
+listed under the form's **Submissions** tab. The address is set in
+`site.config.json`:
 
 ```json
-"newsletterEndpoint": "https://formspree.io/f/abcdwxyz"
+"newsletterEndpoint": "https://formspree.io/f/mvkkrbyd"
 ```
 
-Until then, the form tells visitors to email info@enjel.org instead.
+If it's ever set back to `YOUR_FORM_ID`, the form tells visitors to email
+info@enjel.org instead.
 
 ## Publish
 
