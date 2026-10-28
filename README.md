@@ -1,5 +1,7 @@
 # EnJEL website
 
+**Live site: [https://enjel.org](https://enjel.org)**
+
 The public website for EnJEL (research, engineering and development, Ghana).
 It is a plain static site: HTML pages, one CSS file, a little JavaScript, and
 JSON data files. A small script (`build.js`, no extra packages) puts the pages

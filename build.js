@@ -284,8 +284,25 @@ const NAV = [
 ];
 const LOGO = '<svg width="40" height="40" viewBox="0 0 40 40" aria-hidden="true" fill="none" stroke="#C2410C" stroke-width="2.2"><circle cx="20" cy="8" r="4.5"/><circle cx="8" cy="30" r="4.5"/><circle cx="32" cy="30" r="4.5"/><path d="M17.8 12 10.2 26M22.2 12l7.6 14M12.5 30h15"/></svg>';
 
-function layout(meta, body) {
+// Business details for Google (home page only), from site.config.json.
+function orgSchema(base) {
+  return JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'EnJEL Research & Engineering',
+    alternateName: config.siteName,
+    url: `${base}/`,
+    logo: `${base}/assets/img/enjel-logo.png`,
+    email: config.email,
+    telephone: config.phoneIntl,
+    address: { '@type': 'PostalAddress', streetAddress: 'KNUST', addressLocality: 'Kumasi', addressCountry: 'GH' },
+  }).replace(/</g, '\\u003c');
+}
+
+function layout(meta, body, file) {
   const title = meta.title ? `${meta.title} | EnJEL` : 'EnJEL | Research & Engineering';
+  const base = config.siteUrl.replace(/\/$/, '');
+  const url = `${base}/${file === 'index.html' ? '' : file}`;
   const nav = NAV.map(([key, href, label]) =>
     `<a href="${href}"${meta.nav === key ? ' aria-current="page"' : ''}>${label}</a>`).join('\n        ');
   return `<!doctype html>
@@ -298,6 +315,10 @@ function layout(meta, body) {
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(meta.description || '')}">
 <meta property="og:type" content="website">
+<meta property="og:url" content="${esc(url)}">
+<meta property="og:image" content="${base}/assets/img/enjel-logo.png">
+${meta.noindex ? '<meta name="robots" content="noindex">' : `<link rel="canonical" href="${esc(url)}">`}
+${file === 'index.html' ? `<script type="application/ld+json">${orgSchema(base)}</script>` : ''}
 <meta name="theme-color" content="#1f1f1f">
 <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -473,7 +494,7 @@ function build() {
   const pages = fs.readdirSync(path.join(ROOT, 'src/pages')).filter((f) => f.endsWith('.html'));
   for (const file of pages) {
     const { meta, template } = parsePage(file);
-    fs.writeFileSync(path.join(OUT, file), layout(meta, render(template, file)));
+    fs.writeFileSync(path.join(OUT, file), layout(meta, render(template, file), file));
     if (!meta.noindex) index = index.concat(indexTemplate(file, meta, template));
     if (!meta.noindex && file !== '404.html') sitemap.push(file === 'index.html' ? '' : file);
   }
