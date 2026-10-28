@@ -469,14 +469,23 @@ function build() {
   }
 
   let index = [];
+  const sitemap = [];
   const pages = fs.readdirSync(path.join(ROOT, 'src/pages')).filter((f) => f.endsWith('.html'));
   for (const file of pages) {
     const { meta, template } = parsePage(file);
     fs.writeFileSync(path.join(OUT, file), layout(meta, render(template, file)));
     if (!meta.noindex) index = index.concat(indexTemplate(file, meta, template));
+    if (!meta.noindex && file !== '404.html') sitemap.push(file === 'index.html' ? '' : file);
   }
   index = index.concat(dataIndex());
   fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(index));
+
+  // Sitemap and robots.txt for search engines (submitted in Google Search Console).
+  const base = config.siteUrl.replace(/\/$/, '');
+  fs.writeFileSync(path.join(OUT, 'sitemap.xml'),
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
+    sitemap.map((p) => `  <url><loc>${base}/${p}</loc></url>`).join('\n') + '\n</urlset>\n');
+  fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${base}/sitemap.xml\n`);
   console.log(`Built ${pages.length} pages and ${index.length} search entries into _site/`);
 }
 

@@ -165,6 +165,9 @@ The site lives at **https://enjel.org**. The domain is registered at
   - `TXT` on `_github-pages-challenge-MrCupid75` (GitHub domain verification)
 - `www.enjel.org`, `http://` and the old `mrcupid75.github.io/enjel-website/`
   address all redirect to `https://enjel.org`.
+- A root `TXT` record `google-site-verification=…` proves ownership to Google
+  Search Console (don't delete it). The build also writes `sitemap.xml` and
+  `robots.txt`; the sitemap is submitted in Search Console → Sitemaps.
 - Email (Zoho) uses separate `MX`/`TXT` records and doesn't conflict with
   the ones above.
 - Renew the domain at Porkbun each year (turn on auto-renew).
